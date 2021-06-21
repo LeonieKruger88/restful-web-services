@@ -8,6 +8,10 @@ public class User {
     private String name;
     private Date birthdate;
 
+    protected User(){
+
+    }
+
     @Override
     public String toString() {
         return "User{" +
